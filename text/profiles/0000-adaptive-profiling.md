@@ -15,7 +15,7 @@ The proposed adaptive profiling mechanism dynamically turns profiling on or off 
 1. **Data Collection**: Continuously gather relevant metrics (e.g., CPU, memory usage).
 2. **Threshold Calculation**: Compute the average and standard deviation of these metrics.
 3. **Deviation Detection**: Compare the current metric values against the threshold:
-   \[ \text{Threshold} = \text{Average} + 3 \times \text{Standard Deviation} \]
+   `Threshold = Average + 3 * Standard Deviation`
 4. **Profiling Activation**: Enable profiling if any metric exceeds the threshold.
 5. **Profiling Deactivation**: Disable profiling when metrics return to within the normal range.
 
